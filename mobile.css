@@ -1,0 +1,140 @@
+@media (max-width:600px) {
+    .navbarp-2, .CV {
+     display: none;
+    }
+     .nav {
+
+       display: flex; 
+       flex-direction: row; 
+       width: 100%;
+       top: 60px;
+       }
+       
+     .hamburger {
+         display: block; 
+     }
+ .nav.show {
+  height: 60vh;
+ display: flex; 
+  flex-direction: column;
+     }
+     .nav.show .navbarp-2 {
+      display: flex; 
+      justify-content: center;
+      align-items: center;
+}
+.nav.show ul{
+    flex-direction: column;
+}
+
+.nav.show .navbarp-2 a{
+    padding: 12px;
+    font-size: 5vw;
+
+  }
+  
+  #nav .logo {
+    font-size: 4vw;
+  }
+       
+       #home{
+           flex-direction: column-reverse;
+           height: auto;
+       }
+       #rightsection{
+           height: auto;
+           width: 100%;
+       }
+       #leftsection h3{
+           width: 100%;
+           font-size: 8.5vw;
+           line-height: 8.9vw;
+       }
+       #leftsection p{
+           width: 100%;
+           font-size: 4vw; 
+       }
+       #btn1{
+           height: auto;
+           width: auto;
+           font-size: 2vw 2vh;
+       }
+       #aboutSection h1{
+           
+           font-size: 7vw;
+       }
+       #aboutcontent{  
+           flex-direction: column;
+       }
+       #aboutleft , #aboutright{
+           width: 100%;
+       }
+       #aboutright{
+           padding: 0px 0px;
+       }
+       #aboutright #top p {
+           width: 98%;
+           text-align: center;
+           margin-top: 2vh;
+           font-size: 4.5vw;
+       }
+        #aboutright  h3{
+           font-size: 10vw;
+       }
+      .skills{
+           flex-direction: column;
+       align-items:center ;
+       }
+       .skills img {
+           max-width: 100%; 
+           height: auto; 
+       }
+       .service-card{
+           flex-direction: column;
+           overflow: hidden;
+       }
+       .webdesigning, .webdevelopment, .graphicdesign {
+           width: 100%;
+       }
+       #service-box h1{
+           font-size: 9vw;
+           padding: 0px 0px;
+           margin: 0px 0px;
+           
+       }
+       #service-box h2{
+           font-size: 7vw;
+           padding: 0px 0px;
+           text-align: center;
+       }
+     .service-card h2{
+       font-size: 8vw;
+     }
+     .service-card .text-section{
+       padding: 0;
+     }
+     .text-section p{
+        font-size: 2vw;
+        font-weight: 500;
+   
+   }
+     .text-section {
+       text-align: center;
+       padding: 0px 0px;
+       font-size: 6vw;
+       max-width: 90%; 
+     }
+     .form-div {
+       padding: 15px;
+   }
+   form button {
+       padding: 0px;
+   }
+   
+   .social-icons img {
+       width: 15vw; 
+   }
+   .footer-links{
+       flex-direction: column;
+   }
+   }
