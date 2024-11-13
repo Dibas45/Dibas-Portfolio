@@ -1,121 +1,136 @@
 @media only screen and (min-width: 600px) and (max-width: 1100px) {
-  body {
-      font-size: 16px;
-  }
-  
-  .CV {
-      display: none;
-  }
+    body {
+        font-size: 16px;
+    }
 
-  #nav {
-      display: flex;
-      flex-direction: column;
-      align-items: center;
-  }
+    .CV {
+        display: none;
+    }
 
-  .navbarp-2 {
-      gap: 6vw;
-      display: flex;
-      flex-direction: row;
-      justify-content: center;
-      flex-wrap: wrap;
-  }
+    #nav {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
 
-  .navbarp-2 a {
-      font-size: 2.5vw;
-  }
+    .navbarp-2 {
+        gap: 6vw;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        flex-wrap: wrap; 
+    }
 
-  #home {
-      display: flex;
-      flex-direction: column;
-      align-items: center;
-      text-align: center;
-  }
+    .navbarp-2 a {
+        font-size: 2.5vw;
+    }
+     
+    #home {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+    #aboutSection h1 {
+        margin-top: 20vh;
+       
+    }
+    #leftsection, #rightsection {
+        flex-direction: column-reverse;
+        width: 100%;
+        margin: 10px 0;
+    }
 
-  #leftsection, #rightsection {
-      width: 100%;
-      margin: 10px 0;
-  }
+    #leftsection h3 {
+        font-size: 8.5vw;
+        line-height: 8.9vw;
+        width: 100%;
+    }
 
-  #leftsection h3 {
-      width: 100%;
-      font-size: 8.5vw;
-      line-height: 8.9vw;
-  }
+    #leftsection p {
+        font-size: 4vw;
+        width: 100%;
+    }
 
-  #leftsection p {
-      width: 100%;
-      font-size: 4vw;
-  }
+    #aboutcontent {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
 
-  #aboutcontent {
-      display: flex;
-      flex-direction: column;
-      align-items: center;
-  }
+    #aboutleft, #aboutright {
+        width: 100%;
+        margin: 0;
+    }
 
-  #aboutleft, #aboutright {
-      width: 100%;
-      margin: 0;
-  }
+    #aboutright {
+        padding: 0;
+    }
 
-  #aboutright {
-      padding: 0;
-  }
+    #aboutright img {
+        max-width: 100%; 
+        height: auto;
+        display: block;
+        margin: 0 auto; 
+    }
 
-  #aboutright #top p {
-      text-align: center;
-      margin-top: 1vh;
-      font-size: 2.4vw;
-      font-weight: 500;
-      width: 90%;
-  }
+    #aboutright #top p {
+        text-align: center;
+        margin-top: 1vh;
+        font-size: 2.4vw;
+        font-weight: 500;
+        width: 90%;
+    }
 
-  .skills {
-      display: grid;
-      grid-template-columns: repeat(2, 1fr);
-      gap: 20px;
-      width: 90%;
-      margin: 0 auto;
-  }
+    .skills {
+        display: grid;
+        grid-template-columns: repeat(auto-fill, minmax(200px, 1fr)); 
+        gap: 20px;
+        width: 90%;
+        margin: 0 auto;
+    }
 
-  .service-card {
-      display: grid;
-      grid-template-columns: repeat(2, 1fr);
-      gap: 20px;
-      width: 90%;
-      margin: 0 auto;
-  }
+    .service {
+        width: auto;
+    }
 
-  .text-section p {
-      font-weight: 500;
-      font-size: 0.75vw;
-  }
+    .service-card {
+        display: grid;
+        grid-template-columns: repeat(auto-fill, minmax(200px, 1fr)); 
+        gap: 20px;
+        width: 90%;
+        margin: 0 auto;
+    }
 
-  .form-div {
-      width: 90%;
-      margin: 0 auto;
-  }
+    .text-section p {
+        font-weight: 500;
+        font-size: 0.75vw;
+    }
 
-  .social-icons {
-      display: flex;
-      justify-content: center;
-      flex-wrap: wrap;
-  }
+    .form-div {
+        width: 90%;
+        margin: 0 auto;
+    }
 
-  footer {
-      text-align: center;
-      padding: 20px 0;
-  }
+    .social-icons {
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+    }
 
-  h1, h2, h3 {
-      margin: 10px 0;
-  }
+    footer {
+        text-align: center;
+        padding: 20px 0;
+    }
 
-  img {
-      max-width: 100%;
-      height: auto;
-  }
+    h1, h2, h3 {
+        margin: 10px 0;
+    }
+
+    img {
+        max-width: 100%;
+        height: auto;
+        display: block;
+        margin: 0 auto; 
+    }
 }
-
- 
