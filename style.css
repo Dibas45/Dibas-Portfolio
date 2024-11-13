@@ -72,6 +72,10 @@ html,body{
     cursor: pointer;
     background-color:#ef6d58;
 }
+.CV a{
+    color: white;
+    text-decoration: none;
+}
 #main{
    height: 100%;
     width: 100%;
@@ -256,8 +260,9 @@ skill-info h4 {
     border-radius: 10px;
     box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
     transition: transform 0.3s, box-shadow 0.3s;
-    max-width:400px;
-    }
+    width: calc(30% - 20px);
+    
+}
 
 .service:hover {
     transform: translateY(-5px);
@@ -271,10 +276,11 @@ skill-info h4 {
 }
 
 .image-section img {
+    background-position: center center;  
+    background-repeat: no-repeat;       
     width: 100%;
-    height: auto;
-    object-fit: contain;
-    background-position: center;
+    height: 100%;
+    background-size: cover;
 }
 
 .text-section {
@@ -338,7 +344,7 @@ skill-info h4 {
 .project {
     display: inline-block;
     padding: 10px 15px;
-    background-color: #007bff;
+    background-color: #ef6d58;
     color: white;
     text-decoration: none;
     border-radius: 5px;
@@ -346,7 +352,7 @@ skill-info h4 {
 }
 
 .project:hover {
-    background-color: #0056b3;
+    background-color: #d66b5b;
 }
 
 #contact-container {
