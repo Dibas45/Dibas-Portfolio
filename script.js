@@ -35,7 +35,7 @@ gsap.from("#rightsection img", {
 });
 
 // About Section animation
-gsap.from("#aboutContent", {
+gsap.from("#aboutcontent", {
   scrollTrigger: {
     trigger: "#aboutcontent",
     start: "top 80%",
