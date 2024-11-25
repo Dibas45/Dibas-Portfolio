@@ -35,15 +35,7 @@ gsap.from("#rightsection img", {
 });
 
 // About Section animation
-gsap.from("#aboutcontent", {
-  scrollTrigger: {
-    trigger: "#aboutcontent",
-    start: "top 80%",
-  },
-  opacity: 0,
-  y: 50,
-  duration: 0.8,
-});
+
 gsap.from("#aboutcontent > div", {
   scrollTrigger: {
     trigger: "#aboutcontent",
@@ -127,5 +119,6 @@ gsap.from("form input, form textarea, form button", {
   duration: 0.8,
   ease: "power2.out",
 });
+
 
 
