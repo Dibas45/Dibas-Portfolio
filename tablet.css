@@ -1,4 +1,4 @@
-@media only screen and (min-width: 600px) and (max-width: 1100px) {
+@media only screen and (min-width: 601px) and (max-width: 1100px) {
     body {
         font-size: 16px;
     }
@@ -31,12 +31,14 @@
         align-items: center;
         text-align: center;
     }
-    #aboutSection h1 {
-        margin-top: 20vh;
-       
+    #home #btn1{
+        width: 15vw;
+    }
+    #home #rightsection{
+        display: none;
     }
     #leftsection, #rightsection {
-        flex-direction: column-reverse;
+        flex-direction:reverse;
         width: 100%;
         margin: 10px 0;
     }
@@ -134,3 +136,4 @@
         margin: 0 auto; 
     }
 }
+
